@@ -1,0 +1,23 @@
+logging:
+  level:
+    org.springframework: ERROR
+    in.element: DEBUG
+  pattern:
+    console: "%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"
+    file: "%d %p %c{1.} [%t] %m%n"
+  file: app.log
+
+server:
+  port : 8091
+
+spring:
+  main.allow-bean-definition-overriding: true
+
+http.port: 9200
+transport.tcp.port: 9300
+
+elasticsearch:
+  clustername: my-application
+  host: localhost
+  port: 9300
+
