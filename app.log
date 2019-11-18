@@ -1,0 +1,240 @@
+2019-11-18 21:03:21,450 INFO com.test.demo.ServiceTest [main] Starting ServiceTest on ZALANDO-61131 with PID 1672 (started by nejain in /Users/nejain/2019/September/demo)
+2019-11-18 21:03:21,451 INFO com.test.demo.ServiceTest [main] No active profile set, falling back to default profiles: default
+2019-11-18 21:03:23,769 INFO org.elasticsearch.node [main] [Hate-Monger] version[2.4.4], pid[1672], build[fcbb46d/2017-01-03T11:33:16Z]
+2019-11-18 21:03:23,769 INFO org.elasticsearch.node [main] [Hate-Monger] initializing ...
+2019-11-18 21:03:23,776 INFO org.elasticsearch.plugins [main] [Hate-Monger] modules [], plugins [], sites []
+2019-11-18 21:03:23,806 INFO org.elasticsearch.env [main] [Hate-Monger] using [1] data paths, mounts [[/ (/dev/disk1s5)]], net usable_space [162.4gb], net total_space [233.4gb], spins? [unknown], types [apfs]
+2019-11-18 21:03:23,806 INFO org.elasticsearch.env [main] [Hate-Monger] heap size [3.5gb], compressed ordinary object pointers [true]
+2019-11-18 21:03:23,808 WARN org.elasticsearch.env [main] [Hate-Monger] max file descriptors [10240] for elasticsearch process likely too low, consider increasing to at least [65536]
+2019-11-18 21:03:25,793 INFO org.elasticsearch.node [main] [Hate-Monger] initialized
+2019-11-18 21:03:25,793 INFO org.elasticsearch.node [main] [Hate-Monger] starting ...
+2019-11-18 21:03:25,795 INFO org.elasticsearch.transport [main] [Hate-Monger] publish_address {local[1]}, bound_addresses {local[1]}
+2019-11-18 21:03:25,799 INFO org.elasticsearch.discovery [main] [Hate-Monger] elasticsearch/s5LLtwDgRnm9XzHIYT-uEQ
+2019-11-18 21:03:25,806 INFO org.elasticsearch.cluster.service [elasticsearch[Hate-Monger][clusterService#updateTask][T#1]] [Hate-Monger] new_master {Hate-Monger}{s5LLtwDgRnm9XzHIYT-uEQ}{local}{local[1]}{local=true}, reason: local-disco-initial_connect(master)
+2019-11-18 21:03:25,811 INFO org.elasticsearch.node [main] [Hate-Monger] started
+2019-11-18 21:03:25,861 INFO org.elasticsearch.gateway [elasticsearch[Hate-Monger][clusterService#updateTask][T#1]] [Hate-Monger] recovered [0] indices into cluster_state
+2019-11-18 21:03:26,102 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-11-18 21:03:26,659 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2019-11-18 21:03:26,683 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2019-11-18 21:03:26,725 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2019-11-18 21:03:26,753 INFO com.test.demo.ServiceTest [main] Started ServiceTest in 5.726 seconds (JVM running for 6.402)
+2019-11-18 21:03:27,303 INFO org.elasticsearch.node [Thread-2] [Hate-Monger] stopping ...
+2019-11-18 21:03:27,304 INFO org.elasticsearch.node [Thread-2] [Hate-Monger] stopped
+2019-11-18 21:03:27,305 INFO org.elasticsearch.node [Thread-2] [Hate-Monger] closing ...
+2019-11-18 21:03:27,309 INFO org.elasticsearch.node [Thread-2] [Hate-Monger] closed
+2019-11-18 21:03:38,540 INFO com.test.demo.ServiceTest [main] Starting ServiceTest on ZALANDO-61131 with PID 1683 (started by nejain in /Users/nejain/2019/September/demo)
+2019-11-18 21:03:38,541 INFO com.test.demo.ServiceTest [main] No active profile set, falling back to default profiles: default
+2019-11-18 21:03:40,555 INFO org.elasticsearch.node [main] [Aireo] version[2.4.4], pid[1683], build[fcbb46d/2017-01-03T11:33:16Z]
+2019-11-18 21:03:40,555 INFO org.elasticsearch.node [main] [Aireo] initializing ...
+2019-11-18 21:03:40,559 INFO org.elasticsearch.plugins [main] [Aireo] modules [], plugins [], sites []
+2019-11-18 21:03:40,585 INFO org.elasticsearch.env [main] [Aireo] using [1] data paths, mounts [[/ (/dev/disk1s5)]], net usable_space [162.4gb], net total_space [233.4gb], spins? [unknown], types [apfs]
+2019-11-18 21:03:40,585 INFO org.elasticsearch.env [main] [Aireo] heap size [3.5gb], compressed ordinary object pointers [true]
+2019-11-18 21:03:40,587 WARN org.elasticsearch.env [main] [Aireo] max file descriptors [10240] for elasticsearch process likely too low, consider increasing to at least [65536]
+2019-11-18 21:03:41,906 INFO org.elasticsearch.node [main] [Aireo] initialized
+2019-11-18 21:03:41,907 INFO org.elasticsearch.node [main] [Aireo] starting ...
+2019-11-18 21:03:41,909 INFO org.elasticsearch.transport [main] [Aireo] publish_address {local[1]}, bound_addresses {local[1]}
+2019-11-18 21:03:41,912 INFO org.elasticsearch.discovery [main] [Aireo] elasticsearch/yxRGF52JTtWwuWc7KxgT3A
+2019-11-18 21:03:41,919 INFO org.elasticsearch.cluster.service [elasticsearch[Aireo][clusterService#updateTask][T#1]] [Aireo] new_master {Aireo}{yxRGF52JTtWwuWc7KxgT3A}{local}{local[1]}{local=true}, reason: local-disco-initial_connect(master)
+2019-11-18 21:03:41,924 INFO org.elasticsearch.node [main] [Aireo] started
+2019-11-18 21:03:41,960 INFO org.elasticsearch.gateway [elasticsearch[Aireo][clusterService#updateTask][T#1]] [Aireo] recovered [0] indices into cluster_state
+2019-11-18 21:03:42,195 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-11-18 21:03:42,686 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2019-11-18 21:03:42,703 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2019-11-18 21:03:42,738 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2019-11-18 21:03:42,760 INFO com.test.demo.ServiceTest [main] Started ServiceTest in 4.543 seconds (JVM running for 5.137)
+2019-11-18 21:03:43,275 INFO org.elasticsearch.node [Thread-2] [Aireo] stopping ...
+2019-11-18 21:03:43,277 INFO org.elasticsearch.node [Thread-2] [Aireo] stopped
+2019-11-18 21:03:43,277 INFO org.elasticsearch.node [Thread-2] [Aireo] closing ...
+2019-11-18 21:03:43,281 INFO org.elasticsearch.node [Thread-2] [Aireo] closed
+2019-11-18 21:04:26,027 INFO com.test.demo.ServiceTest [main] Starting ServiceTest on ZALANDO-61131 with PID 1702 (started by nejain in /Users/nejain/2019/September/demo)
+2019-11-18 21:04:26,028 INFO com.test.demo.ServiceTest [main] No active profile set, falling back to default profiles: default
+2019-11-18 21:04:28,041 INFO org.elasticsearch.node [main] [Shalla-Bal] version[2.4.4], pid[1702], build[fcbb46d/2017-01-03T11:33:16Z]
+2019-11-18 21:04:28,041 INFO org.elasticsearch.node [main] [Shalla-Bal] initializing ...
+2019-11-18 21:04:28,044 INFO org.elasticsearch.plugins [main] [Shalla-Bal] modules [], plugins [], sites []
+2019-11-18 21:04:28,065 INFO org.elasticsearch.env [main] [Shalla-Bal] using [1] data paths, mounts [[/ (/dev/disk1s5)]], net usable_space [162.4gb], net total_space [233.4gb], spins? [unknown], types [apfs]
+2019-11-18 21:04:28,066 INFO org.elasticsearch.env [main] [Shalla-Bal] heap size [3.5gb], compressed ordinary object pointers [true]
+2019-11-18 21:04:28,067 WARN org.elasticsearch.env [main] [Shalla-Bal] max file descriptors [10240] for elasticsearch process likely too low, consider increasing to at least [65536]
+2019-11-18 21:04:29,412 INFO org.elasticsearch.node [main] [Shalla-Bal] initialized
+2019-11-18 21:04:29,412 INFO org.elasticsearch.node [main] [Shalla-Bal] starting ...
+2019-11-18 21:04:29,414 INFO org.elasticsearch.transport [main] [Shalla-Bal] publish_address {local[1]}, bound_addresses {local[1]}
+2019-11-18 21:04:29,417 INFO org.elasticsearch.discovery [main] [Shalla-Bal] elasticsearch/wDaAaHR6RaSiv50DNYmdrg
+2019-11-18 21:04:29,423 INFO org.elasticsearch.cluster.service [elasticsearch[Shalla-Bal][clusterService#updateTask][T#1]] [Shalla-Bal] new_master {Shalla-Bal}{wDaAaHR6RaSiv50DNYmdrg}{local}{local[1]}{local=true}, reason: local-disco-initial_connect(master)
+2019-11-18 21:04:29,429 INFO org.elasticsearch.node [main] [Shalla-Bal] started
+2019-11-18 21:04:29,470 INFO org.elasticsearch.gateway [elasticsearch[Shalla-Bal][clusterService#updateTask][T#1]] [Shalla-Bal] recovered [0] indices into cluster_state
+2019-11-18 21:04:29,763 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-11-18 21:04:30,283 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2019-11-18 21:04:30,300 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2019-11-18 21:04:30,332 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2019-11-18 21:04:30,354 INFO com.test.demo.ServiceTest [main] Started ServiceTest in 4.663 seconds (JVM running for 5.264)
+2019-11-18 21:04:30,837 INFO org.elasticsearch.node [Thread-2] [Shalla-Bal] stopping ...
+2019-11-18 21:04:30,838 INFO org.elasticsearch.node [Thread-2] [Shalla-Bal] stopped
+2019-11-18 21:04:30,839 INFO org.elasticsearch.node [Thread-2] [Shalla-Bal] closing ...
+2019-11-18 21:04:30,843 INFO org.elasticsearch.node [Thread-2] [Shalla-Bal] closed
+2019-11-18 21:04:38,119 INFO com.test.demo.ServiceTest [main] Starting ServiceTest on ZALANDO-61131 with PID 1709 (started by nejain in /Users/nejain/2019/September/demo)
+2019-11-18 21:04:38,120 INFO com.test.demo.ServiceTest [main] No active profile set, falling back to default profiles: default
+2019-11-18 21:04:40,408 INFO org.elasticsearch.node [main] [Karl Malus] version[2.4.4], pid[1709], build[fcbb46d/2017-01-03T11:33:16Z]
+2019-11-18 21:04:40,408 INFO org.elasticsearch.node [main] [Karl Malus] initializing ...
+2019-11-18 21:04:40,412 INFO org.elasticsearch.plugins [main] [Karl Malus] modules [], plugins [], sites []
+2019-11-18 21:04:40,438 INFO org.elasticsearch.env [main] [Karl Malus] using [1] data paths, mounts [[/ (/dev/disk1s5)]], net usable_space [162.4gb], net total_space [233.4gb], spins? [unknown], types [apfs]
+2019-11-18 21:04:40,438 INFO org.elasticsearch.env [main] [Karl Malus] heap size [3.5gb], compressed ordinary object pointers [true]
+2019-11-18 21:04:40,440 WARN org.elasticsearch.env [main] [Karl Malus] max file descriptors [10240] for elasticsearch process likely too low, consider increasing to at least [65536]
+2019-11-18 21:04:41,930 INFO org.elasticsearch.node [main] [Karl Malus] initialized
+2019-11-18 21:04:41,930 INFO org.elasticsearch.node [main] [Karl Malus] starting ...
+2019-11-18 21:04:41,933 INFO org.elasticsearch.transport [main] [Karl Malus] publish_address {local[1]}, bound_addresses {local[1]}
+2019-11-18 21:04:41,936 INFO org.elasticsearch.discovery [main] [Karl Malus] elasticsearch/pqUdW8zlRyWYp6tjl1aG8w
+2019-11-18 21:04:41,967 INFO org.elasticsearch.cluster.service [elasticsearch[Karl Malus][clusterService#updateTask][T#1]] [Karl Malus] new_master {Karl Malus}{pqUdW8zlRyWYp6tjl1aG8w}{local}{local[1]}{local=true}, reason: local-disco-initial_connect(master)
+2019-11-18 21:04:41,973 INFO org.elasticsearch.node [main] [Karl Malus] started
+2019-11-18 21:04:42,007 INFO org.elasticsearch.gateway [elasticsearch[Karl Malus][clusterService#updateTask][T#1]] [Karl Malus] recovered [0] indices into cluster_state
+2019-11-18 21:04:42,284 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-11-18 21:04:43,017 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2019-11-18 21:04:43,037 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2019-11-18 21:04:43,085 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2019-11-18 21:04:43,114 INFO com.test.demo.ServiceTest [main] Started ServiceTest in 5.438 seconds (JVM running for 6.273)
+2019-11-18 21:05:07,714 INFO org.elasticsearch.node [Thread-2] [Karl Malus] stopping ...
+2019-11-18 21:05:07,717 INFO org.elasticsearch.node [Thread-2] [Karl Malus] stopped
+2019-11-18 21:05:07,717 INFO org.elasticsearch.node [Thread-2] [Karl Malus] closing ...
+2019-11-18 21:05:07,723 INFO org.elasticsearch.node [Thread-2] [Karl Malus] closed
+2019-11-18 21:07:35,238 INFO com.test.demo.ServiceTest [main] Starting ServiceTest on ZALANDO-61131 with PID 1771 (started by nejain in /Users/nejain/2019/September/demo)
+2019-11-18 21:07:35,238 INFO com.test.demo.ServiceTest [main] No active profile set, falling back to default profiles: default
+2019-11-18 21:07:37,319 INFO org.elasticsearch.node [main] [Leonus] version[2.4.4], pid[1771], build[fcbb46d/2017-01-03T11:33:16Z]
+2019-11-18 21:07:37,319 INFO org.elasticsearch.node [main] [Leonus] initializing ...
+2019-11-18 21:07:37,322 INFO org.elasticsearch.plugins [main] [Leonus] modules [], plugins [], sites []
+2019-11-18 21:07:37,343 INFO org.elasticsearch.env [main] [Leonus] using [1] data paths, mounts [[/ (/dev/disk1s5)]], net usable_space [162.4gb], net total_space [233.4gb], spins? [unknown], types [apfs]
+2019-11-18 21:07:37,344 INFO org.elasticsearch.env [main] [Leonus] heap size [3.5gb], compressed ordinary object pointers [true]
+2019-11-18 21:07:37,345 WARN org.elasticsearch.env [main] [Leonus] max file descriptors [10240] for elasticsearch process likely too low, consider increasing to at least [65536]
+2019-11-18 21:07:38,662 INFO org.elasticsearch.node [main] [Leonus] initialized
+2019-11-18 21:07:38,662 INFO org.elasticsearch.node [main] [Leonus] starting ...
+2019-11-18 21:07:38,664 INFO org.elasticsearch.transport [main] [Leonus] publish_address {local[1]}, bound_addresses {local[1]}
+2019-11-18 21:07:38,667 INFO org.elasticsearch.discovery [main] [Leonus] elasticsearch/Qkkwt5KrTd6p5Mi-_lFhjw
+2019-11-18 21:07:38,676 INFO org.elasticsearch.cluster.service [elasticsearch[Leonus][clusterService#updateTask][T#1]] [Leonus] new_master {Leonus}{Qkkwt5KrTd6p5Mi-_lFhjw}{local}{local[1]}{local=true}, reason: local-disco-initial_connect(master)
+2019-11-18 21:07:38,681 INFO org.elasticsearch.node [main] [Leonus] started
+2019-11-18 21:07:38,718 INFO org.elasticsearch.gateway [elasticsearch[Leonus][clusterService#updateTask][T#1]] [Leonus] recovered [0] indices into cluster_state
+2019-11-18 21:07:38,961 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-11-18 21:07:39,487 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2019-11-18 21:07:39,506 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2019-11-18 21:07:39,541 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2019-11-18 21:07:39,564 INFO com.test.demo.ServiceTest [main] Started ServiceTest in 4.673 seconds (JVM running for 5.263)
+2019-11-18 21:07:40,108 INFO org.elasticsearch.node [Thread-2] [Leonus] stopping ...
+2019-11-18 21:07:40,109 INFO org.elasticsearch.node [Thread-2] [Leonus] stopped
+2019-11-18 21:07:40,109 INFO org.elasticsearch.node [Thread-2] [Leonus] closing ...
+2019-11-18 21:07:40,115 INFO org.elasticsearch.node [Thread-2] [Leonus] closed
+2019-11-18 21:16:21,487 INFO com.test.demo.ServiceTest [main] Starting ServiceTest on ZALANDO-61131 with PID 2057 (started by nejain in /Users/nejain/2019/September/demo)
+2019-11-18 21:16:21,488 INFO com.test.demo.ServiceTest [main] No active profile set, falling back to default profiles: default
+2019-11-18 21:16:23,696 INFO org.elasticsearch.node [main] [Luchino Nefaria] version[2.4.4], pid[2057], build[fcbb46d/2017-01-03T11:33:16Z]
+2019-11-18 21:16:23,696 INFO org.elasticsearch.node [main] [Luchino Nefaria] initializing ...
+2019-11-18 21:16:23,699 INFO org.elasticsearch.plugins [main] [Luchino Nefaria] modules [], plugins [], sites []
+2019-11-18 21:16:23,727 INFO org.elasticsearch.env [main] [Luchino Nefaria] using [1] data paths, mounts [[/ (/dev/disk1s5)]], net usable_space [162.4gb], net total_space [233.4gb], spins? [unknown], types [apfs]
+2019-11-18 21:16:23,727 INFO org.elasticsearch.env [main] [Luchino Nefaria] heap size [3.5gb], compressed ordinary object pointers [true]
+2019-11-18 21:16:23,729 WARN org.elasticsearch.env [main] [Luchino Nefaria] max file descriptors [10240] for elasticsearch process likely too low, consider increasing to at least [65536]
+2019-11-18 21:16:25,395 INFO org.elasticsearch.node [main] [Luchino Nefaria] initialized
+2019-11-18 21:16:25,395 INFO org.elasticsearch.node [main] [Luchino Nefaria] starting ...
+2019-11-18 21:16:25,397 INFO org.elasticsearch.transport [main] [Luchino Nefaria] publish_address {local[1]}, bound_addresses {local[1]}
+2019-11-18 21:16:25,400 INFO org.elasticsearch.discovery [main] [Luchino Nefaria] elasticsearch/2HtpWtFJQP-5yVhgtlQ2VA
+2019-11-18 21:16:25,405 INFO org.elasticsearch.cluster.service [elasticsearch[Luchino Nefaria][clusterService#updateTask][T#1]] [Luchino Nefaria] new_master {Luchino Nefaria}{2HtpWtFJQP-5yVhgtlQ2VA}{local}{local[1]}{local=true}, reason: local-disco-initial_connect(master)
+2019-11-18 21:16:25,410 INFO org.elasticsearch.node [main] [Luchino Nefaria] started
+2019-11-18 21:16:25,444 INFO org.elasticsearch.gateway [elasticsearch[Luchino Nefaria][clusterService#updateTask][T#1]] [Luchino Nefaria] recovered [0] indices into cluster_state
+2019-11-18 21:16:25,702 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-11-18 21:16:26,217 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2019-11-18 21:16:26,239 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2019-11-18 21:16:26,274 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2019-11-18 21:16:26,299 INFO com.test.demo.ServiceTest [main] Started ServiceTest in 5.163 seconds (JVM running for 5.785)
+2019-11-18 21:16:26,893 INFO org.elasticsearch.node [Thread-2] [Luchino Nefaria] stopping ...
+2019-11-18 21:16:26,894 INFO org.elasticsearch.node [Thread-2] [Luchino Nefaria] stopped
+2019-11-18 21:16:26,895 INFO org.elasticsearch.node [Thread-2] [Luchino Nefaria] closing ...
+2019-11-18 21:16:26,901 INFO org.elasticsearch.node [Thread-2] [Luchino Nefaria] closed
+2019-11-18 21:16:58,749 INFO com.test.demo.ServiceTest [main] Starting ServiceTest on ZALANDO-61131 with PID 2082 (started by nejain in /Users/nejain/2019/September/demo)
+2019-11-18 21:16:58,750 INFO com.test.demo.ServiceTest [main] No active profile set, falling back to default profiles: default
+2019-11-18 21:17:00,777 INFO org.elasticsearch.node [main] [Mountjoy] version[2.4.4], pid[2082], build[fcbb46d/2017-01-03T11:33:16Z]
+2019-11-18 21:17:00,777 INFO org.elasticsearch.node [main] [Mountjoy] initializing ...
+2019-11-18 21:17:00,781 INFO org.elasticsearch.plugins [main] [Mountjoy] modules [], plugins [], sites []
+2019-11-18 21:17:00,804 INFO org.elasticsearch.env [main] [Mountjoy] using [1] data paths, mounts [[/ (/dev/disk1s5)]], net usable_space [162.4gb], net total_space [233.4gb], spins? [unknown], types [apfs]
+2019-11-18 21:17:00,804 INFO org.elasticsearch.env [main] [Mountjoy] heap size [3.5gb], compressed ordinary object pointers [true]
+2019-11-18 21:17:00,806 WARN org.elasticsearch.env [main] [Mountjoy] max file descriptors [10240] for elasticsearch process likely too low, consider increasing to at least [65536]
+2019-11-18 21:17:02,162 INFO org.elasticsearch.node [main] [Mountjoy] initialized
+2019-11-18 21:17:02,163 INFO org.elasticsearch.node [main] [Mountjoy] starting ...
+2019-11-18 21:17:02,165 INFO org.elasticsearch.transport [main] [Mountjoy] publish_address {local[1]}, bound_addresses {local[1]}
+2019-11-18 21:17:02,167 INFO org.elasticsearch.discovery [main] [Mountjoy] elasticsearch/lSpWKHmpQdqp5oKEZmX2nQ
+2019-11-18 21:17:02,175 INFO org.elasticsearch.cluster.service [elasticsearch[Mountjoy][clusterService#updateTask][T#1]] [Mountjoy] new_master {Mountjoy}{lSpWKHmpQdqp5oKEZmX2nQ}{local}{local[1]}{local=true}, reason: local-disco-initial_connect(master)
+2019-11-18 21:17:02,179 INFO org.elasticsearch.node [main] [Mountjoy] started
+2019-11-18 21:17:02,215 INFO org.elasticsearch.gateway [elasticsearch[Mountjoy][clusterService#updateTask][T#1]] [Mountjoy] recovered [0] indices into cluster_state
+2019-11-18 21:17:02,459 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-11-18 21:17:02,983 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2019-11-18 21:17:02,999 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2019-11-18 21:17:03,034 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2019-11-18 21:17:03,058 INFO com.test.demo.ServiceTest [main] Started ServiceTest in 4.704 seconds (JVM running for 5.297)
+2019-11-18 21:17:03,602 INFO org.elasticsearch.node [Thread-2] [Mountjoy] stopping ...
+2019-11-18 21:17:03,604 INFO org.elasticsearch.node [Thread-2] [Mountjoy] stopped
+2019-11-18 21:17:03,604 INFO org.elasticsearch.node [Thread-2] [Mountjoy] closing ...
+2019-11-18 21:17:03,608 INFO org.elasticsearch.node [Thread-2] [Mountjoy] closed
+2019-11-18 21:17:58,679 INFO com.test.demo.ServiceTest [main] Starting ServiceTest on ZALANDO-61131 with PID 2110 (started by nejain in /Users/nejain/2019/September/demo)
+2019-11-18 21:17:58,680 INFO com.test.demo.ServiceTest [main] No active profile set, falling back to default profiles: default
+2019-11-18 21:18:01,110 INFO org.elasticsearch.node [main] [Visimajoris] version[2.4.4], pid[2110], build[fcbb46d/2017-01-03T11:33:16Z]
+2019-11-18 21:18:01,110 INFO org.elasticsearch.node [main] [Visimajoris] initializing ...
+2019-11-18 21:18:01,114 INFO org.elasticsearch.plugins [main] [Visimajoris] modules [], plugins [], sites []
+2019-11-18 21:18:01,142 INFO org.elasticsearch.env [main] [Visimajoris] using [1] data paths, mounts [[/ (/dev/disk1s5)]], net usable_space [162.4gb], net total_space [233.4gb], spins? [unknown], types [apfs]
+2019-11-18 21:18:01,142 INFO org.elasticsearch.env [main] [Visimajoris] heap size [3.5gb], compressed ordinary object pointers [true]
+2019-11-18 21:18:01,144 WARN org.elasticsearch.env [main] [Visimajoris] max file descriptors [10240] for elasticsearch process likely too low, consider increasing to at least [65536]
+2019-11-18 21:18:02,961 INFO org.elasticsearch.node [main] [Visimajoris] initialized
+2019-11-18 21:18:02,961 INFO org.elasticsearch.node [main] [Visimajoris] starting ...
+2019-11-18 21:18:02,963 INFO org.elasticsearch.transport [main] [Visimajoris] publish_address {local[1]}, bound_addresses {local[1]}
+2019-11-18 21:18:02,965 INFO org.elasticsearch.discovery [main] [Visimajoris] elasticsearch/nsDT_Pk2QxaaaMxcjt3EQQ
+2019-11-18 21:18:02,971 INFO org.elasticsearch.cluster.service [elasticsearch[Visimajoris][clusterService#updateTask][T#1]] [Visimajoris] new_master {Visimajoris}{nsDT_Pk2QxaaaMxcjt3EQQ}{local}{local[1]}{local=true}, reason: local-disco-initial_connect(master)
+2019-11-18 21:18:02,975 INFO org.elasticsearch.node [main] [Visimajoris] started
+2019-11-18 21:18:03,013 INFO org.elasticsearch.gateway [elasticsearch[Visimajoris][clusterService#updateTask][T#1]] [Visimajoris] recovered [0] indices into cluster_state
+2019-11-18 21:18:03,282 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-11-18 21:18:04,026 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2019-11-18 21:18:04,052 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2019-11-18 21:18:04,100 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2019-11-18 21:18:04,133 INFO com.test.demo.ServiceTest [main] Started ServiceTest in 5.926 seconds (JVM running for 6.732)
+2019-11-18 21:18:22,371 INFO org.elasticsearch.node [Thread-2] [Visimajoris] stopping ...
+2019-11-18 21:18:22,378 INFO org.elasticsearch.node [Thread-2] [Visimajoris] stopped
+2019-11-18 21:18:22,378 INFO org.elasticsearch.node [Thread-2] [Visimajoris] closing ...
+2019-11-18 21:18:22,387 INFO org.elasticsearch.node [Thread-2] [Visimajoris] closed
+2019-11-18 21:19:54,569 INFO com.test.demo.ServiceTest [main] Starting ServiceTest on ZALANDO-61131 with PID 2154 (started by nejain in /Users/nejain/2019/September/demo)
+2019-11-18 21:19:54,570 INFO com.test.demo.ServiceTest [main] No active profile set, falling back to default profiles: default
+2019-11-18 21:19:56,681 INFO org.elasticsearch.node [main] [Vanisher] version[2.4.4], pid[2154], build[fcbb46d/2017-01-03T11:33:16Z]
+2019-11-18 21:19:56,681 INFO org.elasticsearch.node [main] [Vanisher] initializing ...
+2019-11-18 21:19:56,684 INFO org.elasticsearch.plugins [main] [Vanisher] modules [], plugins [], sites []
+2019-11-18 21:19:56,709 INFO org.elasticsearch.env [main] [Vanisher] using [1] data paths, mounts [[/ (/dev/disk1s5)]], net usable_space [162.4gb], net total_space [233.4gb], spins? [unknown], types [apfs]
+2019-11-18 21:19:56,709 INFO org.elasticsearch.env [main] [Vanisher] heap size [3.5gb], compressed ordinary object pointers [true]
+2019-11-18 21:19:56,711 WARN org.elasticsearch.env [main] [Vanisher] max file descriptors [10240] for elasticsearch process likely too low, consider increasing to at least [65536]
+2019-11-18 21:19:58,135 INFO org.elasticsearch.node [main] [Vanisher] initialized
+2019-11-18 21:19:58,135 INFO org.elasticsearch.node [main] [Vanisher] starting ...
+2019-11-18 21:19:58,137 INFO org.elasticsearch.transport [main] [Vanisher] publish_address {local[1]}, bound_addresses {local[1]}
+2019-11-18 21:19:58,140 INFO org.elasticsearch.discovery [main] [Vanisher] elasticsearch/1zebSN3JRqqPA8B9WoBQZA
+2019-11-18 21:19:58,145 INFO org.elasticsearch.cluster.service [elasticsearch[Vanisher][clusterService#updateTask][T#1]] [Vanisher] new_master {Vanisher}{1zebSN3JRqqPA8B9WoBQZA}{local}{local[1]}{local=true}, reason: local-disco-initial_connect(master)
+2019-11-18 21:19:58,150 INFO org.elasticsearch.node [main] [Vanisher] started
+2019-11-18 21:19:58,181 INFO org.elasticsearch.gateway [elasticsearch[Vanisher][clusterService#updateTask][T#1]] [Vanisher] recovered [0] indices into cluster_state
+2019-11-18 21:19:58,416 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-11-18 21:19:58,952 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2019-11-18 21:19:58,968 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2019-11-18 21:19:59,001 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2019-11-18 21:19:59,027 INFO com.test.demo.ServiceTest [main] Started ServiceTest in 4.85 seconds (JVM running for 5.465)
+2019-11-18 21:19:59,641 INFO org.elasticsearch.node [Thread-2] [Vanisher] stopping ...
+2019-11-18 21:19:59,643 INFO org.elasticsearch.node [Thread-2] [Vanisher] stopped
+2019-11-18 21:19:59,643 INFO org.elasticsearch.node [Thread-2] [Vanisher] closing ...
+2019-11-18 21:19:59,647 INFO org.elasticsearch.node [Thread-2] [Vanisher] closed
+2019-11-18 21:24:16,987 INFO com.test.demo.ServiceTest [main] Starting ServiceTest on ZALANDO-61131 with PID 2261 (started by nejain in /Users/nejain/2019/September/demo)
+2019-11-18 21:24:16,989 INFO com.test.demo.ServiceTest [main] No active profile set, falling back to default profiles: default
+2019-11-18 21:24:19,184 INFO org.elasticsearch.node [main] [Cyber] version[2.4.4], pid[2261], build[fcbb46d/2017-01-03T11:33:16Z]
+2019-11-18 21:24:19,184 INFO org.elasticsearch.node [main] [Cyber] initializing ...
+2019-11-18 21:24:19,187 INFO org.elasticsearch.plugins [main] [Cyber] modules [], plugins [], sites []
+2019-11-18 21:24:19,215 INFO org.elasticsearch.env [main] [Cyber] using [1] data paths, mounts [[/ (/dev/disk1s5)]], net usable_space [162.4gb], net total_space [233.4gb], spins? [unknown], types [apfs]
+2019-11-18 21:24:19,215 INFO org.elasticsearch.env [main] [Cyber] heap size [3.5gb], compressed ordinary object pointers [true]
+2019-11-18 21:24:19,216 WARN org.elasticsearch.env [main] [Cyber] max file descriptors [10240] for elasticsearch process likely too low, consider increasing to at least [65536]
+2019-11-18 21:24:20,975 INFO org.elasticsearch.node [main] [Cyber] initialized
+2019-11-18 21:24:20,975 INFO org.elasticsearch.node [main] [Cyber] starting ...
+2019-11-18 21:24:20,978 INFO org.elasticsearch.transport [main] [Cyber] publish_address {local[1]}, bound_addresses {local[1]}
+2019-11-18 21:24:20,980 INFO org.elasticsearch.discovery [main] [Cyber] elasticsearch/N2GOdfZqRemUaJcT1cghpg
+2019-11-18 21:24:20,988 INFO org.elasticsearch.cluster.service [elasticsearch[Cyber][clusterService#updateTask][T#1]] [Cyber] new_master {Cyber}{N2GOdfZqRemUaJcT1cghpg}{local}{local[1]}{local=true}, reason: local-disco-initial_connect(master)
+2019-11-18 21:24:20,994 INFO org.elasticsearch.node [main] [Cyber] started
+2019-11-18 21:24:21,058 INFO org.elasticsearch.gateway [elasticsearch[Cyber][clusterService#updateTask][T#1]] [Cyber] recovered [0] indices into cluster_state
+2019-11-18 21:24:21,273 INFO springfox.documentation.spring.web.PropertySourcedRequestMappingHandlerMapping [main] Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2019-11-18 21:24:21,785 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Context refreshed
+2019-11-18 21:24:21,806 INFO springfox.documentation.spring.web.plugins.DocumentationPluginsBootstrapper [main] Found 1 custom documentation plugin(s)
+2019-11-18 21:24:21,849 INFO springfox.documentation.spring.web.scanners.ApiListingReferenceScanner [main] Scanning for api listing references
+2019-11-18 21:24:21,875 INFO com.test.demo.ServiceTest [main] Started ServiceTest in 5.233 seconds (JVM running for 5.842)
+2019-11-18 21:24:27,953 INFO org.elasticsearch.node [Thread-2] [Cyber] stopping ...
+2019-11-18 21:24:27,955 INFO org.elasticsearch.node [Thread-2] [Cyber] stopped
+2019-11-18 21:24:27,955 INFO org.elasticsearch.node [Thread-2] [Cyber] closing ...
+2019-11-18 21:24:27,960 INFO org.elasticsearch.node [Thread-2] [Cyber] closed
